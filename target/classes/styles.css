@@ -1,0 +1,36 @@
+
+/* styles.css */
+.list-view {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.button {
+    -fx-background-color: #91C788; /* Green */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.anchorPane{
+ -fx-background-color: #EDFFEC;
+
+}
+
+.listView{
+-fx-background-color: #D0F5BE;
+     -fx-text-fill: white;
+     -fx-font-size: 14px;
+
+}
+
+.moviesListView{
+-fx-background-color: #D0F5BE;
+     -fx-text-fill: white;
+     -fx-font-size: 14px;
+}

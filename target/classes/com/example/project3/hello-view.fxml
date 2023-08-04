@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="com.example.project3.HelloController" prefHeight="400.0" prefWidth="600.0" styleClass="anchorPane" stylesheets="/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <TextField fx:id="movieTitleTextField" layoutX="40.0" layoutY="350.0" prefWidth="300.0" styleClass="text-field" stylesheets="@../../../styles.css" />
+    <Button fx:id="addButton" layoutX="350.0" layoutY="350.0" onAction="#addButtonClicked" stylesheets="@../../../styles.css" text="Add" />
+    <Button fx:id="removeButton" layoutX="400.0" layoutY="350.0" onAction="#removeButtonClicked" stylesheets="@../../../styles.css" text="Remove" />
+    <Button fx:id="loadButton" layoutX="475.0" layoutY="350.0" onAction="#loadButtonClicked" stylesheets="@../../../styles.css" text="Load" />
+    <Button fx:id="saveButton" layoutX="531.0" layoutY="350.0" onAction="#saveButtonClicked" stylesheets="@../../../styles.css" text="Save" />
+    <ListView id="listView" fx:id="moviesListView" layoutX="40.0" layoutY="36.0" prefHeight="300.0" prefWidth="400.0" styleClass="moviesListView" stylesheets="@../../../styles.css" />
+    <Label fx:id="statusLabel" layoutX="40.0" layoutY="10.0" stylesheets="@../../../styles.css" text="" />
+
+
+</AnchorPane>
